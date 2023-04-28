@@ -1,0 +1,32 @@
+header {
+   
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: 30px;
+    text-align: center;
+}
+
+section {
+position: absolute;
+align-items: center;
+}
+
+#Headshot {
+    width: 200px;
+    position: relative;
+    
+    
+    
+}
+
+
+footer {
+    font-size: smaller;
+}
+
+img 1{
+
+}
