@@ -1,12 +1,42 @@
-header {
-   
+body {
+    background-color: #A9B388;
+}
+
+p {
+    color: #FEFAE0;
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-style: oblique;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 30px;
+    color: #783d19;
     text-align: center;
+    position: relative;
+    padding: 5%;
+}
+
+h2 {
+    color: #FEFAE0;
+    text-align: center;
+}
+
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FEFAE0;
+  background: #783d19;
+} 
+
+nav li {
+    display: inline-block;
+    float: right;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #FEFAE0;
+}
+
+nav li:hover {
+    background-color: #5f6f52;
+    color: #5f6f52;
 }
 
 section {
@@ -15,18 +45,25 @@ align-items: center;
 }
 
 #Headshot {
-    width: 200px;
+    width: 30%;
+    display: block; 
+    border: 7px solid #783d19;
     position: relative;
-    
-    
-    
+    float: right;
 }
-
 
 footer {
+    background: #783d19;
+    color: #FEFAE0;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: smaller;
+    text-align: center;
+    position: relative;
+
 }
 
-img 1{
-
+article {
+    position: relative;
 }
+
+
