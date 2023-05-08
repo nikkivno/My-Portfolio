@@ -98,10 +98,15 @@ article {
     align-items: center;  
 }
 
+.flexboxcontainer4 {
+    display: flexbox;
+    border: 1px solid black;
+}
+
 #project1 {
     display: flexbox;
     border: 1px solid black;
-    border-radius: 15%;
+    border-radius: 10%;
     width: 250px;
     height: 350px;
     margin-top: 10%;
@@ -112,19 +117,20 @@ article {
 #project2 {
     display: flexbox;
     border: 1px solid black;
-    border-radius: 15%;
+    border-radius: 10%;
     width: 250px;
     height: 350px;
     margin-top: 10%;
     margin-left:2%;
     margin-right: 2%;
     text-align: center;
+    align-self: center;
 }
 
 #project3 {
     display: flexbox;
     border: 1px solid black;
-    border-radius: 15%;
+    border-radius: 10%;
     width: 250px;
     height: 350px;
     margin-top: 10%;
