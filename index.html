@@ -4,6 +4,9 @@
   <head>
     <meta charset="UTF-8">
     <title>Nikki Vigneault</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./Assets/stylesheet.css">
   </head>
 
@@ -17,35 +20,39 @@
       </ul>
     </nav>
     
-    <h1>Nikki Vigneault</h1>
+    <h1>Nikki <span>Vigneault</span></h1>
     
-    <section class="flexboxcontainer">
+    <article class="flexboxcontainer1">
+      <div id="aboutme">
+          <h2>About Me</h2>
+          <p>Nikki is an aspiring full stack developer with a background in theatre design and production. This history has given her an interest in builidng websites and applications focused on enhancing arts workers experiences through technology.</p>
+      </div>
       <img id="Headshot" src="./Assets/Images/Self Portrait Sketch.JPG" alt="Nikki's Headshot"/>
-    </section>
-
-    <article class="flexboxcontainer1" id="aboutme">
-      <h2>About <span>Me</span></h2>
-      <p>Nikki is an aspiring full stack developer with a background in theatre design and production. This history has given her an interest in builidng websites and applications focused on enhancing arts workers experiences through technology.</p>
     </article>
 
     <article class="flexboxcontainer2" id="portfolio">
-      <div class="flexboxcontainer4">
-        <h2>My <span>Work</span></h2>
-     </div>
+        <div class="flexboxcontainer4">
+          <h2>My Work</h2>
+        </div>
+        <div class="flexboxcontainer6">
           <div id="project1">
             <h3>Project 1</h3>
+            <!-- Image for Horiseon Challenge one deployed link
+              <img src="./Assets/Images/websiteexample.png">
+            -->
           </div>
           <div id="project2">
             <h3>Project 2</h3>
           </div>
-         <div id="project3">
+          <div id="project3">
             <h3>Project 3</h3>
-         </div>
+          </div>
+        </div>     
     </article>
 
     <article class="flexboxcontainer3" id="contact">
       <div>
-         <h2>Reach <span>Out</span></h2>
+         <h2>Reach Out</h2>
       </div>
       <div>
         <form id="form">
@@ -58,7 +65,7 @@
           <label for="message">Message:</label>
           <input type="message" id="message" name="message">
           <br>
-          <button type="button">Submit</button>
+          <button type="button" href="mailto:nikkivigneault@gmail.com">Submit</button>
         </form>
       </div>
     </article>
