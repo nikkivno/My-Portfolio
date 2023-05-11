@@ -214,6 +214,7 @@ a:hover {
 
 input {
     border: none; 
+    width: 200px;
     margin: 3%;
 }
 
