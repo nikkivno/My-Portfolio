@@ -100,7 +100,7 @@ a:hover {
 }
 
 #aboutme {
-    border-bottom: solid #783D19;
+    border-bottom: solid #783D19 2px;
     flex: 3 3 200px;
     flex-direction: column;
     margin: 0 20px;
@@ -132,7 +132,9 @@ a:hover {
     background-color: #36454F;
     max-width: 100%;
     margin: 0 auto;
+    margin-bottom: 5%;
     justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -141,21 +143,26 @@ a:hover {
     padding-top: 2%;  
 }
 
-#horiseon-website {
-    width: 250px;
-    height: 350px;
-    border-radius: 10%;
-    align-items: center; 
-    margin-right: 10px;
-    position: relative;
-    text-align: center;
-}
 #comingsoon1 {
     width: 250px;
     height: 350px;    
     border-radius: 10%;
-    margin-right: 10px;
-    margin-left: 10px;
+    position: relative;
+    text-align: center;
+}
+
+#horiseon-website {
+    width: 265px;
+    border-radius: 10%;
+    align-items: center; 
+    position: relative;
+    text-align: center;
+}
+
+#horiseon-website-image {
+    width: 265px;
+    border-radius: 10%;
+    align-items: center; 
     position: relative;
     text-align: center;
 }
@@ -164,30 +171,23 @@ a:hover {
     width: 250px;
     height: 350px;
     border-radius: 10%;
-    margin-left: 10px;
     position: relative;
     text-align: center;
 }
 
 .centered {
-    position: absolute;
-    left: 0;
-    position:absolute;
-    top: 50%;
-    color: black;
-    display: inline-block;
+    color: whitesmoke;
+    position: relative;
+    font-family: 'Manrope', sans-serif;
     text-align: center;
-    display: inline-block;
-
-
-    /* opacity: 0; */   
 }
 
-/*--------- Image Attributes ---------*/
+/*--------- Portfolio Link Attributes ---------*/
 
-.centered:hover {
-    opacity: 100%;
+#horiseon-website-image:hover {
+    box-shadow: #783D19 10px 10px 10px;
 }
+
 /*--------- Contact Form ---------*/
 
 .flexboxcontainer3 {
@@ -271,32 +271,26 @@ footer {
     flex: 1 1 200;
     }
 
+    #headshot-image {
+        border-bottom: #783D19 2px solid;
+    }
+
     .flexboxcontainer6 {
         flex-direction: column;
         justify-content: center;
+        margin-bottom: 10%;
     }
-
+    
     #horiseon-website {
-        margin: 2%;
+        margin-top: 7%;
     }
-
-    #comingsoon1 {
-        margin: 2%;
+    
+    .centered {
+        margin-bottom: 10%;
     }
-
-    #comingsoon2 {
-        margin: 2%;
-    }
+    
 
     .flexboxcontainer3 {
         flex-direction: column;
     }
-}
-
-/*--------- Responsive Elements Tablet ---------*/
-
-@media screen and (max-width: 768px) {
-
-
-
 }
