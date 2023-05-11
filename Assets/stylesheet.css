@@ -142,11 +142,13 @@ a:hover {
 }
 
 #horiseon-website {
-    width: 270px;
+    width: 250px;
+    height: 350px;
     border-radius: 10%;
     align-items: center; 
     margin-right: 10px;
     position: relative;
+    text-align: center;
 }
 #comingsoon1 {
     width: 250px;
@@ -155,6 +157,7 @@ a:hover {
     margin-right: 10px;
     margin-left: 10px;
     position: relative;
+    text-align: center;
 }
 
 #comingsoon2 {
@@ -163,12 +166,28 @@ a:hover {
     border-radius: 10%;
     margin-left: 10px;
     position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    left: 0;
+    position:absolute;
+    top: 50%;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    display: inline-block;
+
+
+    /* opacity: 0; */   
 }
 
 /*--------- Image Attributes ---------*/
 
-
-
+.centered:hover {
+    opacity: 100%;
+}
 /*--------- Contact Form ---------*/
 
 .flexboxcontainer3 {
