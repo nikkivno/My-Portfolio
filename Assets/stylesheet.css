@@ -249,7 +249,7 @@ footer {
 
 /*--------- Responsive Elements Phone ---------*/
 
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
     nav {
         align-items: center;
         justify-content: center;
