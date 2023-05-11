@@ -20,6 +20,8 @@ Future Features:
 
 ## Deployed Link
 
+https://nikkivno.github.io/My-Portfolio/
+
 ## License
 
 MIT License
