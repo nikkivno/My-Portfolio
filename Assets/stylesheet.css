@@ -11,7 +11,7 @@ p {
     color: whitesmoke;
     padding-left: 5%;
     padding-right: 5%;
-    font: raleway;
+    font-family: 'Manrope', sans-serif;
 }
 
 h1 {
@@ -91,23 +91,30 @@ a:hover {
 .flexboxcontainer1 {
     display: flex;
     background: black;
+    position: relative;
     max-width: 100%;
     margin: 0 auto;
     width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #aboutme {
-    display: flexbox;
     border-bottom: solid #783D19;
-    position: relative; 
-    width: 50%;
-    margin: 10% 0% 20% 10%;
+    flex: 3 3 200px;
     flex-direction: column;
+    margin: 0 20px;
 }
 
-#Headshot {
-    display: flex;
-    width: 30%;
+#headshot-container {
+    flex: 1 1 300px;
+    bottom: 0;
+    right: 70px; 
+}
+
+#headshot-image {
+    width: 100%;
+    bottom: 0;
 }
 
 /*--------- Portfolio ---------*/
@@ -134,39 +141,33 @@ a:hover {
     padding-top: 2%;  
 }
 
-#project1 {
-    display: flexbox;
-    border: 1px solid black;
+#horiseon-website {
+    width: 270px;
     border-radius: 10%;
+    align-items: center; 
+    margin-right: 10px;
+    position: relative;
+}
+#comingsoon1 {
     width: 250px;
-    height: 350px;
-    margin-right: 2%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
+    height: 350px;    
+    border-radius: 10%;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
 }
 
-#project2 {
-    display: flexbox;
-    border: 1px solid black;
-    border-radius: 10%;
+#comingsoon2 {
     width: 250px;
     height: 350px;
-    margin-left:2%;
-    margin-right: 2%;
-    text-align: center;    
+    border-radius: 10%;
+    margin-left: 10px;
+    position: relative;
 }
 
-#project3 {
-    display: flexbox;
-    border: 1px solid black;
-    border-radius: 10%;
-    width: 250px;
-    height: 350px;
-    margin-left: 2%;
-    text-align: center;
-}
+/*--------- Image Attributes ---------*/
+
+
 
 /*--------- Contact Form ---------*/
 
@@ -188,17 +189,16 @@ a:hover {
     font-family: 'Manrope', sans-serif;
     align-items: center;  
     justify-content: right;
-    align-self: center;   
+    align-self: center;  
+    flex-direction: column; 
 }
 
 input {
-    width: 100%;
     border: none; 
     margin: 3%;
 }
 
 button {
-    margin-top: 10%;
     font-family: 'Manrope', sans-serif;
     font-weight: 100;
     border-radius: 10%;
@@ -227,9 +227,9 @@ footer {
     padding: 1rem;
 }
 
-/*--------- Responsive Elements ---------*/
+/*--------- Responsive Elements Phone ---------*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
     nav {
         align-items: center;
         justify-content: center;
@@ -243,17 +243,13 @@ footer {
     h1 {
         font-size: 60px;
     }
-
-    #headshot {
-        
-    }
-
+   
     #aboutme {
     order: 2;
-    width: auto;
     text-align: center;
     align-items: center;
     margin: 0;
+    flex: 1 1 200;
     }
 
     .flexboxcontainer6 {
@@ -261,19 +257,27 @@ footer {
         justify-content: center;
     }
 
-    #project1 {
+    #horiseon-website {
         margin: 2%;
     }
 
-    #project2 {
+    #comingsoon1 {
         margin: 2%;
     }
 
-    #project3 {
+    #comingsoon2 {
         margin: 2%;
     }
 
     .flexboxcontainer3 {
         flex-direction: column;
     }
+}
+
+/*--------- Responsive Elements Tablet ---------*/
+
+@media screen and (max-width: 768px) {
+
+
+
 }
