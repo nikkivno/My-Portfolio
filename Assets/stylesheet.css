@@ -151,8 +151,16 @@ a:hover {
     text-align: center;
 }
 
-#horiseon-website {
+#budget-website-image {
     width: 265px;
+    border-radius: 10%;
+    align-items: center; 
+    position: relative;
+    text-align: center;
+}
+
+#horiseon-website {
+    width: 250px;
     border-radius: 10%;
     align-items: center; 
     position: relative;
@@ -185,6 +193,10 @@ a:hover {
 /*--------- Portfolio Link Attributes ---------*/
 
 #horiseon-website-image:hover {
+    box-shadow: #783D19 10px 10px 10px;
+}
+
+#budget-website-image:hover {
     box-shadow: #783D19 10px 10px 10px;
 }
 
