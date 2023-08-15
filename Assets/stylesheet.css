@@ -175,13 +175,15 @@ a:hover {
     text-align: center;
 }
 
-#comingsoon2 {
-    width: 250px;
-    height: 350px;
+#mapbrew-website-image {
+    width: 265px;
     border-radius: 10%;
+    align-items: center; 
     position: relative;
     text-align: center;
 }
+
+
 
 .centered {
     color: whitesmoke;
@@ -197,6 +199,10 @@ a:hover {
 }
 
 #budget-website-image:hover {
+    box-shadow: #783D19 10px 10px 10px;
+}
+
+#mapbrew-website-image:hover {
     box-shadow: #783D19 10px 10px 10px;
 }
 
